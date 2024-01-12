@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #219ebc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    place-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #fb8500;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+   
+
+
+    
